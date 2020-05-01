@@ -32,8 +32,8 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
         double czk = 0.16;
 
 
-        double wybor;
-        double wynik;
+        double choose;
+        double result;
         double zloty;
 
    try
@@ -50,35 +50,35 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
    switch(ComboBox1->ItemIndex)
    {
    case 0 :
-        wybor = usd;
+        choose = usd;
         ImageUSD->Show();
         break;
    case 1 :
-        wybor = eur;
+        choose = eur;
         ImageEUR->Show();
         break;
    case 2 :
-        wybor = chf;
+        choose = chf;
         ImageCHF->Show();
         break;
    case 3 :
-        wybor = gbp;
+        choose = gbp;
         ImageGBP->Show();
         break;
    case 4 :
-        wybor = thb;
+        choose = thb;
         ImageTHB->Show();
         break;
    case 5 :
-        wybor = aud;
+        choose = aud;
         ImageAUD->Show();
         break;
    case 6 :
-        wybor = hkd;
+        choose = hkd;
         ImageHKD->Show();
         break;
    case 7 :
-        wybor = czk;
+        choose = czk;
         ImageCZK->Show();
         break;
    default:
@@ -86,8 +86,8 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
         break;
    }
         zloty = Edit1->Text.ToDouble();
-        wynik = zloty * wybor;
-        Edit2->Text = RoundTo(wynik, -2);
+        result = zloty * choose;
+        Edit2->Text = RoundTo(result, -2);
 
    }
    catch (EOverflow & e)

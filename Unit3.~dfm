@@ -1587,6 +1587,7 @@ object Form3: TForm3
     Top = 256
     Width = 89
     Height = 33
+    Cancel = True
     Caption = 'Cofnij'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
