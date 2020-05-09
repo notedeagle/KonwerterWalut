@@ -1624,7 +1624,7 @@ object Form4: TForm4
     Font.Color = clWindowText
     Font.Height = -21
     Font.Name = 'MS Sans Serif'
-    Font.Style = []
+    Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
   end

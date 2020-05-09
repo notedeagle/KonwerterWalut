@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 1809
-  Top = 728
+  Left = 1806
+  Top = 645
   BorderStyle = bsDialog
   Caption = 'Konwerter'
   ClientHeight = 318
@@ -1624,7 +1624,7 @@ object Form3: TForm3
     Font.Color = clWindowText
     Font.Height = -21
     Font.Name = 'MS Sans Serif'
-    Font.Style = []
+    Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
   end

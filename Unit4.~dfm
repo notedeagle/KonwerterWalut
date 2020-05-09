@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 1504
-  Top = 568
+  Left = 1910
+  Top = 500
   BorderStyle = bsDialog
   Caption = 'Konwerter'
   ClientHeight = 326
