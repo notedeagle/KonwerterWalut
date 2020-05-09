@@ -13,14 +13,14 @@ TForm2 *Form2;
 __fastcall TForm2::TForm2(TComponent* Owner)
         : TForm(Owner)
 {
-        usd = 4.18;
-        eur = 4.53;
-        chf = 4.28;
-        gbp = 5.21;
-        thb = 0.12;
-        aud = 2.71;
-        hkd = 0.53;
-        czk = 0.16;
+        double usd = 4.18;
+        double eur = 4.53;
+        double chf = 4.28;
+        double gbp = 5.21;
+        double thb = 0.12;
+        double aud = 2.71;
+        double hkd = 0.53;
+        double czk = 0.16;
 
 ListBox1->Items->Add("Dolar amerykañski 1USD = " + CurrToStr(usd) + "PLN");
 ListBox1->Items->Add("Euro 1EUR = " + CurrToStr(eur) + "PLN");

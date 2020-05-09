@@ -32,6 +32,20 @@ void __fastcall TForm3::Button2Click(TObject *Sender)
         Edit1->SetFocus();
         Edit1->SelectAll();
 
+        double usd = 4.18;
+        double eur = 4.53;
+        double chf = 4.28;
+        double gbp = 5.21;
+        double thb = 0.12;
+        double aud = 2.71;
+        double hkd = 0.53;
+        double czk = 0.16;
+
+
+   double choose;
+   double result;
+   double zloty;
+
    try
    {
    ImageUSD->Hide();
@@ -46,42 +60,42 @@ void __fastcall TForm3::Button2Click(TObject *Sender)
    switch(ComboBox1->ItemIndex)
    {
    case 0 :
-        choose = Form2->usd;
+        choose = usd;
         ImageUSD->Show();
         Label3->Caption = "USD";
         break;
    case 1 :
-        choose = Form2->eur;
+        choose = eur;
         ImageEUR->Show();
         Label3->Caption = "EUR";
         break;
    case 2 :
-        choose = Form2->chf;
+        choose = chf;
         ImageCHF->Show();
         Label3->Caption = "CHF";
         break;
    case 3 :
-        choose = Form2->gbp;
+        choose = gbp;
         ImageGBP->Show();
         Label3->Caption = "GBP";
         break;
    case 4 :
-        choose = Form2->thb;
+        choose = thb;
         ImageTHB->Show();
         Label3->Caption = "THB";
         break;
    case 5 :
-        choose = Form2->aud;
+        choose = aud;
         ImageAUD->Show();
         Label3->Caption = "AUD";
         break;
    case 6 :
-        choose = Form2->hkd;
+        choose = hkd;
         ImageHKD->Show();
         Label3->Caption = "HKD";
         break;
    case 7 :
-        choose = Form2->czk;
+        choose = czk;
         ImageCZK->Show();
         Label3->Caption = "CZK";
         break;

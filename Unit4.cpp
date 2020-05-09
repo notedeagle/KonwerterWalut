@@ -5,6 +5,7 @@
 #pragma hdrstop
 
 #include "Unit1.h"
+#include "Unit2.h"
 #include "Unit4.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -22,20 +23,6 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
         Edit1->SetFocus();
         Edit1->SelectAll();
 
-        double usd = 4.18;
-        double eur = 4.53;
-        double chf = 4.28;
-        double gbp = 5.21;
-        double thb = 0.12;
-        double aud = 2.71;
-        double hkd = 0.53;
-        double czk = 0.16;
-
-
-        double choose;
-        double result;
-        double zloty;
-
    try
    {
    ImageUSD->Hide();
@@ -50,35 +37,35 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
    switch(ComboBox1->ItemIndex)
    {
    case 0 :
-        choose = usd;
+        choose = Form2->usd;
         ImageUSD->Show();
         break;
    case 1 :
-        choose = eur;
+        choose = Form2->eur;
         ImageEUR->Show();
         break;
    case 2 :
-        choose = chf;
+        choose = Form2->chf;
         ImageCHF->Show();
         break;
    case 3 :
-        choose = gbp;
+        choose = Form2->gbp;
         ImageGBP->Show();
         break;
    case 4 :
-        choose = thb;
+        choose = Form2->thb;
         ImageTHB->Show();
         break;
    case 5 :
-        choose = aud;
+        choose = Form2->aud;
         ImageAUD->Show();
         break;
    case 6 :
-        choose = hkd;
+        choose = Form2->hkd;
         ImageHKD->Show();
         break;
    case 7 :
-        choose = czk;
+        choose = Form2->czk;
         ImageCZK->Show();
         break;
    default:

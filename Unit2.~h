@@ -17,8 +17,6 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm2(TComponent* Owner);
-
-        double usd, eur, chf, gbp, thb, aud, hkd, czk;
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm2 *Form2;

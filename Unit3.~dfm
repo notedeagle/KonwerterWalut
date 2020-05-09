@@ -1,10 +1,10 @@
-object Form4: TForm4
-  Left = 721
-  Top = 1029
+object Form3: TForm3
+  Left = 1806
+  Top = 645
   BorderStyle = bsDialog
   Caption = 'Konwerter'
-  ClientHeight = 326
-  ClientWidth = 721
+  ClientHeight = 318
+  ClientWidth = 707
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,11 +16,11 @@ object Form4: TForm4
   PixelsPerInch = 110
   TextHeight = 13
   object Label1: TLabel
-    Left = 24
+    Left = 48
     Top = 56
-    Width = 317
+    Width = 288
     Height = 29
-    Caption = 'Podaj kwote w obcej walucie:'
+    Caption = 'Podaj kwote w z'#322'ot'#243'wkach:'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
@@ -1535,9 +1535,8 @@ object Form4: TForm4
   object Label3: TLabel
     Left = 488
     Top = 160
-    Width = 47
+    Width = 6
     Height = 29
-    Caption = 'PLN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
@@ -1557,6 +1556,7 @@ object Form4: TForm4
     Font.Style = []
     ParentFont = False
     TabOrder = 0
+    Text = 'PLN'
   end
   object ComboBox1: TComboBox
     Left = 160
@@ -1571,7 +1571,7 @@ object Form4: TForm4
     ItemHeight = 16
     ParentFont = False
     TabOrder = 1
-    Text = 'Wybierz walute z kt'#243'rej przeliczasz'
+    Text = 'Wybierz walute na kt'#243'r'#261' chcesz przeliczyc'
     Items.Strings = (
       'Dolar ameryka'#324'ski'
       'Euro'
