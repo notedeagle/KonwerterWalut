@@ -106,6 +106,10 @@ void __fastcall TForm3::Button2Click(TObject *Sender)
    {
         Application->MessageBox("Nie wpisano kwoty!", "B³¹d!", MB_ICONWARNING);
    }
+   catch (EZeroDivide & e)
+   {
+        Application->MessageBox("Nie wybrano waluty!", "B³¹d!", MB_ICONWARNING);
+   }
 }
 //---------------------------------------------------------------------------
 

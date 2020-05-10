@@ -34,6 +34,10 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm3(TComponent* Owner);
+
+        double choose;
+        double result;
+        double zloty;
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm3 *Form3;
